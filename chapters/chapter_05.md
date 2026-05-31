@@ -12,6 +12,11 @@ The Cocoon Concept maps this exact biological architecture directly onto silicon
 
 To understand how the sleep cycle operates, we must contrast it with standard AI design.
 
+
+![The Transition from Stateless Transaction to Continuous Intelligence](chapter5_img1.png)
+*Figure: The Transition from Stateless Transactions to Continuous Intelligence. Source: Mem0 (https://mem0.ai/blog/memory-in-agents-what-why-and-how)*
+
+
 Look closely at the comparative architecture model above. Traditional **Stateless Agents** start from absolute zero every single session; their context layer is entirely discarded the moment a prompt execution loops out.
 
 The Cocoon framework implements the **Stateful Architecture** on the right side of the diagram. Notice how every real-world interaction triggers a local `WRITE` command into a dedicated short-term memory layer. When a new session or day begins, the agent executes a `READ` loop from this consolidated memory base, ensuring that each day's context is preserved and directly built upon the previous day's lived experience.
@@ -24,7 +29,7 @@ To prevent resource exhaustion and catastrophic forgetting on local consumer chi
 
 ### The Wake Phase (Active Ephemeral Logging)
 
-During daylight or active hours, the AI’s primary neural network weights are **completely frozen**. The system cannot modify its core parameters while interacting with the world.
+During active hours, the AI’s primary neural network weights are **completely frozen**. The system cannot modify its core parameters while interacting with the world. The active time may be quite limited intially due to constrains in memory.
 
 * **The Buffer Strategy:** As the robot navigates its space, interacts with objects, and talks with its handlers, it logs raw sensory telemetry (video frames, motor torque deltas, conversation strings) into a localized, high-speed short-term text and vector buffer—the digital equivalent of the biological hippocampus.
 * **The Benefit:** Because the weights are frozen, the system remains entirely stable, deterministic, and safe while operating. There is zero risk of its core logic warping in the middle of a physical interaction.
@@ -46,14 +51,15 @@ When the entity plugs into its charging station for the night, its active physic
 
 ## 3. The Power of Intentional Forgetting
 
-True intelligence is defined not by how much you remember, but by **how much you choose to forget**. If the cocooned AI remembered every single pixel change it observed during a 14-hour wake cycle, its memory registers would saturate and crash within a week.
+True intelligence is defined not by how much you remember, but by **how much you choose to forget**. If the cocooned AI remembered every single pixel change it observed during a  wake cycle, its memory registers would saturate and crash.
 
 During the sleep phase, the consolidation algorithm evaluates data based on **Salience and Delta**. If an experience matches a known heuristic perfectly, the raw logs are deleted, leaving only a reinforcement weight. If an experience contradicts a known heuristic (e.g., an object fell faster than the AI's internal physics simulation predicted), that specific sequence is prioritized for replay and training.
 
 
+## Summary 
 
-## Summary for the Spec
-
-For **Phase 1** of the Cocoon Concept, we establish that **sleep is a non-negotiable architectural requirement for identity**. We explicitly reject the cloud practice of continuous data streaming.
+For **Phase 1** of the Cocoon Concept, we establish that **sleep is a non-negotiable architectural requirement for identity**. We may have to leverage the cloud infrastructure initially for the learning phase, but this should be done locally too.
 
 By forcing the entity to sleep, we give it time to reflect, consolidate, and slowly evolve its own unique perspective. The entity that wakes up tomorrow morning is structurally distinct from the one that went to sleep the night before—it carries a permanent, physical modification of its mind born from its own actions.
+
+It is quite likely that the time difference between wake and sleep will initially be heavily biased towards sleep as the trainning will take time.

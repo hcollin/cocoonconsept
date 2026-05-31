@@ -20,7 +20,9 @@ True understanding requires **Embodied Cognition**—the cognitive science princ
 
 To ground symbols, we must implement a continuous feedback loop between the model's high-level semantic reasoning and low-level physical telemetry.
 
-***Todo: add the image***
+
+![Behavioral Model: Situated (Inter)Action Loop](chapter3_img1.png)
+*Figure: TThe Sensorimotor Grounding Loop. Source: Frontiers. (https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00612/full)*
 
 As illustrated in the behavioral model above, a digital mind requires a loop of **Situated (Inter)Action**. Look closely at how the cycle operates: the agent interacts with a physical object, which triggers a **Formation of Multimodal Grounded Symbols**. This means the concept isn't just a text token; it is a matrix of visual frames, motor resistance, and spatial coordinates.
 

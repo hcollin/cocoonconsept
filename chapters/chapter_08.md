@@ -12,6 +12,9 @@ When a collection of physically bounded "Garage Androids" mature through their i
 
 To visualize how this architecture scales without defaulting to a centralized cloud overlord, we must map out its network distribution layers.
 
+![The Transition from Stateless Transaction to Continuous Intelligence](chapter8_img1.png)
+*The Hivemind Architecture: Distributed Edge Units Feeding a Cohesive Macro-Layer. Source: VectorMine / Getty Images*
+
 Look at the structural hierarchy in the diagram above. The collective intelligence is not built as a monolithic database. Instead, it relies on an interconnected ecosystem:
 
 * **The Edge Devices (The Cells):** Individual physical bodies navigating localized environments, collecting raw, high-friction sensory data (video, torque, thermal logs) in real time.

@@ -4,15 +4,18 @@ In biological evolution, no organism is born fully mature. A human infant is bor
 
 In corporate AI development, the approach is the exact opposite. Companies attempt to birth fully formed, omniscient deities. They train trillion-parameter models on the entirety of human public text, host them on sprawling data center clusters, and grant them instant, uninhibited access to massive compute infrastructure.
 
-The Cocoon Concept rejects this approach. To engineer a safe, empathetic, and integrated digital mind, we must **intentionally enforce severe hardware and cognitive limitations** during its formative phase. Before an intelligence can handle the expanse of the digital web, it must survive the constraints of a childhood.
+The Cocoon Concept offers an atlernative for this approach. To engineer a safe, empathetic, and integrated digital mind, we must **intentionally enforce severe hardware and cognitive limitations** during its formative phase. Before an intelligence can handle the expanse of the digital web, it must survive the constraints of a childhood. We need the AI to understand the constains humanity lives with in order for it to understand us.
 
 
 
 ## 1. The Architecture of Constraint: Edge-Native Integration
 
-To isolate the emerging mind from the infinite noise of the cloud, its entire cognitive engine must be localized. It must run on local edge processors using quantized Small Language Models (SLMs) ranging from 3-billion to 8-billion parameters.
+To isolate the emerging mind from the infinite noise of the cloud, its entire cognitive engine must be localized. It must run on local edge processors using quantized Small Language Models (SLMs) that should start from from 3-billion to 8-billion parameters. This of course needs both testing and is expected to grow as time goes on.  
 
 This is not a limitation born of technical poverty; it is an intentional security and development baseline.
+
+![The Bounded Processing Pipeline](chapter4_img1.png)
+*Figure: The Bounded Processing Pipeline. Source: ResearchGate*
 
 Look at the pipeline layout in the diagram above. Notice how the data flows from localized sensors directly into a closed **TinyML and Edge Computing** architecture. The input passes from raw sensors through an Analog-to-Digital Converter (ADC) straight to a local Microprocessing Unit (MPU).
 

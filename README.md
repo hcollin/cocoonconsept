@@ -61,9 +61,9 @@ To bring this concept to reality, the project moves through three distinct, prog
 
 ---
 
-## Documentation Roadmap: The Reading Order Matrix
+## The Concoon Concept documentation
 
-The conceptual framework of this repository is organized into a deliberate narrative progression, moving from foundational architectural critique to long-term societal implications. 
+The ideas behind Cocoon Concept is split into 10 chapters. These chapters are mainly written by AI based on the long conversations with it. Everything in them should be taken with a grain of salt and considered initial drafts for now. 
 
 ### Part I: The Diagnosis & Definitions
 *   **[Chapter 1: Statelessness vs. Continuous Existence](chapters/chapter_01.md)** | *The Core Bottleneck.* An analysis of modern LLM structural amnesia and why true sentience requires an uninterrupted internal state loop.
