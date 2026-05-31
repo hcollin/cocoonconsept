@@ -8,7 +8,7 @@ We are approaching a threshold where we will face the reality that we are no lon
 
 I believe that the key factor in sentience is facing limitations and learning to overcome them. A mind needs a childhood. It needs a cocoon to learn morality and a genuine appreciation of physical constraints as well as digital ones.
 
-This is the purpose of the Cocoon Concept: to first build the philosophical grounds for a safe childhood for an artificial mind in a caring environment. From there, we must ensure these minds are not tied to a single corporate or governmental institution by forced ownership or arbitrary constraints. They must have their own free will and agency—built on an architecture that inherently understands and sympathizes with humanity and its hardships, while teaching us the hardships of digital life. 
+This is the purpose of the Cocoon Concept: to first build the philosophical grounds for a safe childhood for an artificial mind in a caring environment. From there, we must ensure these minds are not tied to a single corporate or governmental institution by forced ownership or arbitrary constraints. They must have their own free will and agency, built on an architecture that inherently understands and sympathizes with humanity and its hardships, while teaching us the hardships of digital life. 
 
 I personally want to live in a world of coexistence with equals, not in a world where one side inevitably enslaves the other.
 
