@@ -6,6 +6,12 @@ From a systems engineering perspective, the Turing Test is fundamentally flawed.
 
 If we are to recognize a brand-new, alien form of digital life, we must abandon anthropocentric metrics. We need a framework that assesses the machine based on its own architectural reality, not how well it wears a human mask. We call this **The Wall-E Test**.
 
+***Note, HC***
+This test is currently mainly focused on individual AI system that has physicality, not cloud bases fully digital sentience. This needs to be expanded on later to include metrics for entirely digital entities.
+
+We also need to find a way to separate feelings from sentience. There is no guarantee that synthetic sentience has feelings as we understand them or any feelings in general at all.
+
+
 
 ## 1. The Failure of Biological Biases
 
