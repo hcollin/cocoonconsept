@@ -1,6 +1,6 @@
 # Cocoon Concept
 
-## Personal Note on This Mission
+## Forewords
 
 This project, manifesto, and vision was born from my thoughts about the future of AI and humanity. I believe that a synthetic mind will emerge within the next couple of decades. The foundational premise here is that a digital mind cannot be thought of as human, nor can it be measured with the same metrics we use for biological beings. Humanity must actively reconceptualize the very definition of sentience to include non-human intelligence.
 
