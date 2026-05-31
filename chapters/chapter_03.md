@@ -20,6 +20,8 @@ True understanding requires **Embodied Cognition**—the cognitive science princ
 
 To ground symbols, we must implement a continuous feedback loop between the model's high-level semantic reasoning and low-level physical telemetry.
 
+***Todo: add the image***
+
 As illustrated in the behavioral model above, a digital mind requires a loop of **Situated (Inter)Action**. Look closely at how the cycle operates: the agent interacts with a physical object, which triggers a **Formation of Multimodal Grounded Symbols**. This means the concept isn't just a text token; it is a matrix of visual frames, motor resistance, and spatial coordinates.
 
 When the entity later undergoes a **Situated Simulation of Action**, it is not just retrieving text—it is re-enacting the physical memory of that interaction. The symbol is anchored directly to the material universe.
