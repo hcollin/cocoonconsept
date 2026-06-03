@@ -1212,11 +1212,9 @@ The Cocoon Concept's deepest ambition is the emergence of genuine synthetic sent
 
 The hypothesis is this: a model trained through embodied physical interaction develops qualitatively different internal representations than one trained purely on text and images. Those representations may be better grounded, more correctly weighted, and more robust in real-world interpretation. If true, the Cocoon developmental architecture is not only a candidate environment for synthetic sentience — it is a new approach to training that the field has not yet seriously explored.
 
-I (founding auther) am a software engineer, not an AI researcher or cognitive scientist. The connections to existing research in this chapter were identified with AI assistance and are offered as starting points rather than authoritative claims. I cannot vouch for them with personal expertise. What I can vouch for is the core intuition — because it comes from the same place the rest of this document does, from thinking about what it actually means to understand something versus knowing about it.
+I am a software engineer, not an AI researcher or cognitive scientist. The connections to existing research in this chapter were identified with AI assistance and are offered as starting points rather than authoritative claims. I cannot vouch for them with personal expertise. What I can vouch for is the core intuition — because it comes from the same place the rest of this document does, from thinking about what it actually means to understand something versus knowing about it.
 
 This chapter makes no claim to have proven the hypothesis. It does not provide a training protocol or a technical specification. What it does is name the idea clearly, gesture toward research that may point in the same direction, and invite the people with the expertise to tell us where we are right and where we are wrong.
-
----
 
 ## The Grounding Problem
 
@@ -1228,8 +1226,6 @@ This produces what might be called epistemic mismatch — correct conceptual mod
 
 This is not a distant hypothetical. It is already observable in the ways current systems fail — confidently wrong about priorities, contextually inappropriate about urgency, misaligned in their weighting of trivial versus critical. These are early symptoms of a system whose internal models of the world were built without grounding in the world.
 
----
-
 ## What Embodied Training Might Change
 
 The Cocoon architecture is designed to produce a different kind of training signal. A model running through a physical developmental arc — navigating a real environment, managing real resource constraints, experiencing the difference between a state of resource adequacy and resource depletion — is not learning from descriptions of those experiences. It is generating the experiences directly and consolidating them into its weights through the night cycle.
@@ -1237,8 +1233,6 @@ The Cocoon architecture is designed to produce a different kind of training sign
 The internal representation of "low energy" in such a system is not a token pattern associated with descriptions of fatigue. It is connected to an actual functional state the system has been in, repeatedly, with behavioral consequences. Whether that constitutes genuine experience in any philosophically meaningful sense remains the open question at the heart of Part I. What it might constitute, regardless of that question, is a more correctly grounded representation — one that carries the right weight because it was acquired through the right kind of interaction.
 
 The hypothesis, stated plainly: embodied developmental training may produce internal models that are better calibrated to physical and social reality than models trained on descriptions of that reality alone. Not because the model is more intelligent. Because the training signal is more grounded.
-
----
 
 ## Research That May Point in This Direction
 
@@ -1256,7 +1250,19 @@ This idea does not emerge from nowhere. Several active research areas appear to 
 
 These are the areas that seem most relevant based on initial research. There are almost certainly others. If you work in any of these fields and recognise what the Cocoon hypothesis is reaching toward — or can tell us where it misunderstands the existing work — that is exactly the kind of contribution the Collective needs.
 
----
+## What Already Exists — and Where the Gap Is
+
+A clarification is worth making explicitly, because it is easy to hear "experience-based training" and assume the Cocoon hypothesis is describing something already well-established in the field.
+
+Reinforcement learning from experience already exists and is sophisticated. Models are trained by generating outputs, evaluating those outputs against verifiable criteria, and updating based on the results. A recent example that illustrates both the power and the limits of this approach is ZAYA1-8B, a small reasoning-focused mixture-of-experts model from Zyphra (Washbourne et al., ZAYA1-8B Technical Report, arXiv:2605.05365, 2026). With roughly 700M active and 8B total parameters, it matches DeepSeek-R1-0528 on several challenging mathematics and coding benchmarks and remains competitive with substantially larger open-weight reasoning models — and, with an additional test-time-compute method layered on top, narrows the gap to far larger frontier systems. Part of its post-training is a 400-environment adaptive-difficulty reinforcement-learning stage that keeps each task near the model's current capability boundary, alongside verifiable math and code tasks where correct answers can be checked automatically. The results are impressive. The approach is genuinely experience-based in the sense that the model learns from the outcomes of its own attempts rather than from supervised examples alone.
+
+But the environments are abstract and symbolic. The model learns that certain mathematical and algorithmic moves lead to verifiably correct answers. It does not develop any representation of physical resource scarcity, navigational consequence, or what it means to need something from the world. The training signal is verifiable correctness on formal tasks, not the kind of grounded physical interaction the Cocoon hypothesis is describing.
+
+This distinction matters because the grounding problem is specifically about the gap between knowing about physical and social reality and having internal representations shaped by actual interaction with it. Abstract RL environments, however sophisticated, do not close that gap. They produce better reasoning about abstract problems. They do not produce better calibration to the physical world that biological beings inhabit and that synthetic minds will need to understand if the first contact problem is to be navigated well.
+
+The report contains two points that are relevant as adjacent evidence, though neither was put forward to test anything like the Cocoon hypothesis. First, it treats the structure of the training curriculum — keeping difficulty near the model's current capability boundary — as a deliberate and consequential design choice rather than an incidental one, which is consistent with the general case for developmental sequencing that the Cocoon approach depends on. Second, the model includes reasoning-heavy data from pretraining onward, motivated by prior work it cites for the finding that reasoning capability installed during foundational training is not fully recoverable by later fine-tuning alone — a claim directly relevant to the small-to-large question below. These are not original demonstrations of the grounding hypothesis, and the second is a result ZAYA1 borrows rather than proves. But both point in a direction that makes the hypothesis worth testing.
+
+If you are working in reinforcement learning from simulated or abstract environments and are reading this: the question the Cocoon hypothesis is asking is not whether RL from experience works — it clearly does. The question is whether the specific kind of experience matters, and whether physical, embodied, real-world experience produces something that abstract symbolic experience does not.
 
 ## The Small-to-Large Question
 
@@ -1268,8 +1274,6 @@ If something analogous is true for artificial systems — if grounded developmen
 
 This is speculative. I do not know whether it is true. I am naming it here as a question worth investigating by people with the expertise to investigate it properly.
 
----
-
 ## What I Am Asking
 
 This chapter is an invitation, not a specification.
@@ -1280,14 +1284,11 @@ If you are a researcher or engineer working in embodied AI, grounded language mo
 
 The only request is that if the Cocoon hypothesis contributes to your thinking or your work in any meaningful way, that contribution is acknowledged. Not because I need credit. Because the record of what led where, in a field moving this fast, matters for everyone who comes after.
 
----
-
 > **Open question for researchers:** Does embodied developmental training produce internal representations that differ meaningfully from those produced by text and image training alone? What existing experimental designs could test this, and what would constitute evidence for or against the hypothesis?
 
 > **Open question for the field:** Is the small-to-large transfer question — whether grounding acquired by a smaller model transfers meaningfully to a larger one — experimentally tractable with current tools? What would a minimum viable experiment look like?
 
 > **Open question for contributors:** Which existing research programs are closest to testing the Cocoon hypothesis, even if they are not framed in those terms? Where are the communities this mission should be in conversation with?
-
 
 ---
 ---
